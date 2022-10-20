@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    text-align: center;
+    padding: 100px 0px;
+    background: #ddd;
+}
+
+
+
+button.tablinks {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fb5200;
+    background: #fff;
+    padding: 11px;
+    margin: 10px;
+    border-radius: 14px;
+    color: #000;
+    font-weight: bold;
+}
+.tab button.active {
+    background-color: #ccc;
+}
+.tabcontent {
+    background: #fff;
+    padding: 100px 0px;
+    width: 800px;
+    margin: auto;
+    margin-top: 22px;
+    display: none;
+}
